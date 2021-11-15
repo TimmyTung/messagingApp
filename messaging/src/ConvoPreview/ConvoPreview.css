@@ -1,0 +1,19 @@
+.convos {
+  display: flex;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #000000;
+}
+
+.convos:hover {
+  background-color: #a9a9a9;
+}
+
+.convos__info {
+  margin-left: 15px;
+}
+
+.convos__info > h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
